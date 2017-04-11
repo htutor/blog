@@ -1,0 +1,114 @@
+[ 2017-04-05T22:57:12+08:00 ] 192.168.1.2 /Public/static/Bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-05T22:59:52+08:00 ] 192.168.1.2 /Public/static/Bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-05T23:01:44+08:00 ] 192.168.1.2 /Public/static/Bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003112s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-05T23:01:55+08:00 ] 192.168.1.2 /Public/static/Bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-05T23:05:02+08:00 ] 192.168.1.2 /tpforum/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:Tpforum
+
+[ 2017-04-05T23:05:02+08:00 ] 192.168.1.2 /tpforum/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Tpforum
+
+[ 2017-04-05T23:18:07+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:08+08:00 ] 192.168.1.20 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004168s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-04-05T23:18:11+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:11+08:00 ] 192.168.1.20 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004172s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-04-05T23:18:15+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003464s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:18+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:19+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:21+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:25+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005284s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:46+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:50+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:18:52+08:00 ] 192.168.1.20 /html/fonts/glyphicons-halflings-regular.eot?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003558s ]
+ERR: 无法加载模块:Html
+
+[ 2017-04-05T23:29:27+08:00 ] 192.168.1.101 /c/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002961s ]
+ERR: 无法加载模块:C
+

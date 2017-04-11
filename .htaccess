@@ -1,0 +1,43 @@
+#首页
+rewrite ^(.*)/index.html$ $1/index.php last;
+#一级
+rewrite ^(.*)/index-do-(\w+).html$ $1/index.php?do=$2 last;
+#菜单
+rewrite ^(.*)index-do-(\w+)-model_id-(\d+).html$ $1/index.php?do=$2&model_id=$3 last;
+#个人中心
+rewrite ^(.*)index-do-(\w+)-member_id-(\d+).html$  $1/index.php?do=$2&member_id=$3 last;
+#文章列表
+rewrite  ^(.*)index-do-(\w+)-art_id-(\w+).html$  $1/index.php?do=$2&art_id=$3 last;
+#文章类别列表
+rewrite  ^(.*)index-do-(\w+)-art_cat_id-(\w+).html$  $1/index.php?do=$2&art_cat_id=$3 last;
+#文章分页
+rewrite ^(.*)index-do-(\w+)-page-(\d+).html$  $1/index.php?do=$2&page=$3 last;
+#文章分类分页
+rewrite ^(.*)index_do-(\w+)-art_cat_id-(\d+)-page-(\d+).html$  $1/index.php?do=$2&art_cat_id=$3&page=$4 last;
+#成功案例分页 
+rewrite "^(.*)index_do-(\w+)-slt_page_size-(\d+)-indus_id-(\d){0,3}-page-(\d+).html$"  $1/index.php?do=$2&slt_page_size=$3&indus_id=$4&page=$5 last;
+#文章分类父列表
+rewrite ^(.*)index_do-(\w+)-art_cat_pid-(\d+).html$  $1/index.php?do=$2&art_cat_pid=$3 last;
+#任务列表
+rewrite ^(.*)index_do-(\w+)-task_id-(\d+).html$  $1/index.php?do=$2&task_id=$3 last;
+#任务分类列表
+rewrite ^(.*)index-do-(\w+)-model_id-(\d+)-indus_id-(\d+).html$  $1/index.php?do=$2&model_id=$3&indus_id=$4 last;
+#任务详细页
+rewrite ^(.*)index-do-(\w+)-task_id-(\d+).html$ $1/index.php?do=$2&task_id=$3 last;
+#detail
+rewrite ^(.*)index-do-(\w+)-task_id-(\d+)-view-(\w+).html$ $1/index.php?do=$2&task_id=$3&view=$4 last;
+#悬赏任务分页
+rewrite "^(.*)index-do-(\w+)-model_id-(\d+)-view-(\w+)-page_size-(\d+)-page-(\d+).html$"  $1/index.php?do=$2&model_id=$3&view=$4&page_size=$5&page=$6 last;
+#xs任务搜索1
+rewrite "^(.*)index-do-(\w+)-model_id-(\d+)-page_size-(\d+)-view-(\w+)-slt_cash_cove-(\w+){0,5}-slt_order-(\w+){0,5}.html$"      $1/index.php?do=$2&model_id=$3&page_size=$4&view=$5&slt_cash_cove=$6&slt_order=$7 last;
+#xs任务搜索2
+rewrite "^(.*)index-do-(\w+)-model_id-(\d+)-view-(\w+)-slt_cash_cove-(\w+){0,5}-page_size-(\d+){0,5}-slt_order-(\d+){0,3}.html$"    $1/index.php?do=$2&model_id=$3&view=$4&slt_cash_cove=$5&page_size=$6&slt_order=$7 last;
+#xs任务搜索3
+rewrite "^(.*)index-do-(\w+)-model_id-(\d+)-view-(\w+)-slt_order-(\d+){0,5}-slt_cash_cove-(\d+){0,5}.html$"  $1/index.php?do=$2&model_id=$3&view=$4&slt_order-$5&slt_cash_cove=$6 last;
+#帮助
+rewrite ^(.*)index-do-(\w+)-art_cat_pid-(\d+).html$  $1/index.php?do=$2&art_cat_pid=$3 last;
+#首页搜索
+rewrite  ^(.*)index-do-(\w+)-txt_left_day-(\d+).html$   $1/index.php?do=$2&txt_left_day=$3 last;
+rewrite  ^(.*)index-do-(\w+)-txt_pub_day-(\d+).html$   $1/index.php?do=$2&txt_pub_day=$3 last;
+#远程图片
+rewrite  ^(.*)task/fttask/img-id-(\d+)-tid-(\d+).gif$  $1/task/fttask/img.php?id=$2&tid=$3  last;
